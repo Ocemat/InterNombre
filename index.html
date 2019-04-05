@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Bienvenue sur votre jeu "InterNombre</h1>
+
+    <div class=conteneur>
+
+        <div class="roundedImage" style="background:url(img/voyante.jpg) no-repeat 0px 0px;"> </div>
+        &nbsp;
+
+        <div class="contenu">
+            <p class="text">But du jeu ?</p>
+            <p class="text"> Découvir le nombre auquel je pense !</p>
+            <p id="random"></p>
+
+            <p class = "text" id="help"> </p>
+
+            <label>Quelle est votre réponse ?</label>
+            <input type="text" placeHolder="Votre proposition..." id="PropositionField" />
+            <button id="SubmitButton">C'est mon dernier mot !</button>
+            <div id="NbClic"></div>
+
+            <ul id="ListeRep">
+                
+            </ul>
+
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scriptJQuery.js"></script>
+</body>
+</html>
+
+

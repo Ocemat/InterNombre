@@ -1,0 +1,32 @@
+h1 {
+    color : violet;
+    text-align: center;
+}
+
+.roundedImage{
+    overflow:hidden;
+    border-radius:400px;
+    width:400px;
+    height:400px;
+    display: inline-block;
+   
+}
+
+.contenu {
+    display: inline-block;
+    position:absolute;
+    top : 100px;
+    right : 350px;
+}
+
+#help {
+    color: red;
+}
+
+.text {
+    font-style: bold;
+    font-size: 22px;
+    text-decoration: inherit;
+
+}
+
