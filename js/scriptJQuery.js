@@ -45,8 +45,6 @@ $(document).ready(function () {
         if (toprint == " bravo !") {
             if (confirm("Voulez-vous rejouer ?")) {
                 location.reload();
-                 $("#ListeRep li").remove();
-                getRandomNumber();
                 hello();
             } else {
                 alert("Au Revoir Looser ! :) ");
@@ -56,11 +54,9 @@ $(document).ready(function () {
     })
 
     // Générer un chiffre en aléatoire
-    function getRandomNumber() {
     var min = 1;
     var max = 100;
     var random = Math.floor(Math.random() * (+max - +min)) + +min;
     document.getElementById("random").innerHTML = "Nombre Généré : " + random;
-        }
 
 });
